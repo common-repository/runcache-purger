@@ -1,0 +1,222 @@
+# Copyright (C) 2019 RunCache Purger
+# This file is distributed under the same license as the RunCache Purger package.
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: RunCache Purger 1.0.0\n"
+        "Report-Msgid-Bugs-To: https://runcloud.io\n"
+        "POT-Creation-Date: 2019-09-13 21:30+0800\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: runcache-purger.php:277
+#, php-format
+msgid   "The <strong>%1$s</strong> plugin version %2$s requires:"
+msgstr  ""
+
+#: runcache-purger.php:288
+#, php-format
+msgid   "WordPress version %s or higher."
+msgstr  ""
+
+#: runcache-purger.php:297
+#, php-format
+msgid   "PHP version %s or higher."
+msgstr  ""
+
+#: runcache-purger.php:305
+msgid   "Apache or NGINX Web Server."
+msgstr  ""
+
+#: runcache-purger.php:311
+msgid   "The plugin has now deactivated itself. Please contact your hosting "
+        "provider or system administrator for version upgrade."
+msgstr  ""
+
+#: runcache-purger.php:546 runcache-purger.php:665
+msgid   "Settings"
+msgstr  ""
+
+#: runcache-purger.php:680
+msgid   "Clear Cache this Post"
+msgstr  ""
+
+#: runcache-purger.php:691
+msgid   "Clear Cache this URL"
+msgstr  ""
+
+#: runcache-purger.php:701 views/settings.php:197
+msgid   "Clear All Cache"
+msgstr  ""
+
+#: runcache-purger.php:1130
+msgid   "Failed to purge cache."
+msgstr  ""
+
+#: runcache-purger.php:1137
+msgid   "Purging cache was successful."
+msgstr  ""
+
+#: runcache-purger.php:1139
+msgid   "Purging redis object cache was successful."
+msgstr  ""
+
+#: runcache-purger.php:1144
+#, php-format
+msgid   "Purging method not implement. Status Code %s"
+msgstr  ""
+
+#: runcache-purger.php:1149
+msgid   "Redis server not connected."
+msgstr  ""
+
+#: runcache-purger.php:1151
+msgid   "Failed to purge redis object cache."
+msgstr  ""
+
+#: runcache-purger.php:1154
+msgid   "Purging method not implement."
+msgstr  ""
+
+#: runcache-purger.php:1159
+#, php-format
+msgid   "Failed to purge cache. Status Code %s"
+msgstr  ""
+
+#: views/settings.php:7
+#, php-format
+msgid   "%s Settings"
+msgstr  ""
+
+#: views/settings.php:28
+msgid   "Purge Homepage Setting"
+msgstr  ""
+
+#: views/settings.php:35
+msgid   "New or Updated Post"
+msgstr  ""
+
+#: views/settings.php:39
+msgid   "Automatically clean cache of homepage when post is edited or has a "
+        "new post."
+msgstr  ""
+
+#: views/settings.php:46
+msgid   "Post Removed"
+msgstr  ""
+
+#: views/settings.php:50
+msgid   "Automatically clean cache of homepage when post removed."
+msgstr  ""
+
+#: views/settings.php:61
+msgid   "Purge Content Setting"
+msgstr  ""
+
+#: views/settings.php:68
+msgid   "Published Content"
+msgstr  ""
+
+#: views/settings.php:72
+msgid   "Automatically clean cache of content when published."
+msgstr  ""
+
+#: views/settings.php:79
+msgid   "Comment Approved"
+msgstr  ""
+
+#: views/settings.php:83
+msgid   "Automatically clean cache of content when comment approved and "
+        "published."
+msgstr  ""
+
+#: views/settings.php:90
+msgid   "Comment Removed"
+msgstr  ""
+
+#: views/settings.php:94
+msgid   "Automatically clean cache of content when comment removed."
+msgstr  ""
+
+#: views/settings.php:105
+msgid   "Purge Archives Setting"
+msgstr  ""
+
+#: views/settings.php:112
+msgid   "Homepage Purged"
+msgstr  ""
+
+#: views/settings.php:116
+msgid   "Automatically clean cache of archives when any action at homepage "
+        "option was purged."
+msgstr  ""
+
+#: views/settings.php:123
+msgid   "Content Purged"
+msgstr  ""
+
+#: views/settings.php:127
+msgid   "Automatically clean cache of archives when any action at content "
+        "option was purged."
+msgstr  ""
+
+#: views/settings.php:137
+msgid   "Redis Object Cache"
+msgstr  ""
+
+#: views/settings.php:143
+msgid   "Status"
+msgstr  ""
+
+#: views/settings.php:150
+msgid   "Hostname"
+msgstr  ""
+
+#: views/settings.php:153
+msgid   "Port"
+msgstr  ""
+
+#: views/settings.php:156
+msgid   "Key Prefix"
+msgstr  ""
+
+#: views/settings.php:163
+msgid   "Purge Object Cache"
+msgstr  ""
+
+#: views/settings.php:167
+msgid   "Automatically clean redis object cache when any purge action was "
+        "triggered."
+msgstr  ""
+
+#: views/settings.php:174
+msgid   "Enable Object Cache"
+msgstr  ""
+
+#: views/settings.php:178
+msgid   "Enable this option to allow this plugin handle redis object cache."
+msgstr  ""
+
+#: views/settings.php:192
+msgid   "Purge Actions"
+msgstr  ""
+
+#: views/settings.php:201
+msgid   "Clear Homepage Cache"
+msgstr  ""
+
+#: views/settings.php:205
+msgid   "Clear Content Cache"
+msgstr  ""
+
+#: views/settings.php:209
+msgid   "Clear Archives Cache"
+msgstr  ""
+
+#: views/settings.php:213
+msgid   "Clear Redis Cache"
+msgstr  ""
